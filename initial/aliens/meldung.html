@@ -1,0 +1,41 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Von Aliens entf�hrt - eine Entf�hrung melden</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <h2>Von Aliens entf�hrt &ndash; eine Entf�hrung melden</h2>
+  <p>Die Geschichte Ihrer Alienentf�hrung:</p>
+  <form action="meldung.php">
+    <label for="vorname">Vorname:</label>
+    <input type="text" id="vorname" name="vorname" /><br />
+    <label for="nachname">Nachname:</label>
+    <input type="text" id="nachname" name="nachname" /><br />
+    <label for="email">Wie lautet Ihre E-Mail-Adresse?</label>
+    <input type="text" id="email" name="email" /><br />
+    <label for="wanngeschahes">Wann geschah es?</label>
+    <input type="text" id="wanngeschahes" name="wanngeschahes" /><br />
+    <label for="wielange">Wie lange waren Sie unterwegs?</label>
+    <input type="text" id="wielange" name="wielange" /><br />
+    <label for="wieviele">Wie viele haben Sie gesehen?</label>
+    <input type="text" id="wieviele" name="wieviele" /><br />
+    <label for="alienbeschreibung">Wie sahen die Aliens aus:</label>
+    <input type="text" id="alienbeschreibung" name="alienbeschreibung" size="32" /><br />
+    <label for="wassietaten">Was wurde mit Ihnen gemacht?</label>
+    <input type="text" id="wassietaten" name="wassietaten" size="32" /><br />
+    <label for="fanggesehen">Haben Sie Fang gesehen?</label>
+    Ja <input id="fanggesehen" name="fanggesehen" type="radio" value="Ja" />
+    Nein <input id="fanggesehen" name="fanggesehen" type="radio" value="Nein" /><br />
+    <img src="fang.jpg" width="100" height="175" alt="Mein entf�hrter Hund Fang." /><br />
+    <label for="weiteres">Weitere Bemerkungen:</label>
+    <textarea id="weiteres" name="weiteres"></textarea><br />
+    <input type="submit" value="Entf�hrung melden" name="submit" />
+  </form>
+</body>
+
+</html>
